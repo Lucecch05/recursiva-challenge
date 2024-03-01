@@ -6,7 +6,7 @@ Se desarrollo en Angular 16, utilizando Angular Material para el diseño.
 
 ### Servidor de Desarrollo / Puesta en Marcha
 
-Para iniciar el servidor local, solo ejecuta el comando `ng serve` y lo tendras activo en el puerto 4200 (\`localhost:4200\`).
+Para iniciar el servidor local, primero instalar los paquetes necesarios con `npm install`. Al finalizar la instalación se corre la app con el comando `ng serve`, inicando en el puerto 4200 (\`localhost:4200\`).
 
 ### Demo
 
