@@ -12,6 +12,9 @@ Para iniciar el servidor local, primero instalar los paquetes necesarios con `np
 
 Se encuentra desplegado el proyecto para su prueba online en `Vercel`. Se puede acceder a la demo en el siguiente link: `https://recursiva-challenge.vercel.app`. 
 
+Se deja el link del archivo ".csv" para poder hacer pruebas. https://drive.google.com/file/d/1P2KZlvKQ11ECgIN9CG9Tp-lG8-LmV0_8/view?usp=sharing
+**No posee encabezado y el orden de las columnas es: "Nombre, Edad, Equipo, Estado Civil y Nivel Estudio". ** 
+
 ### Estructura del proyecto
 
 El proyecto esta dispuesto por 2 paginas principales: Home y Dashboard. Donde en la primera se realiza la carga del archivo csv y luego, es redirigido para ver resultados.
