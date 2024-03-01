@@ -1,0 +1,77 @@
+
+
+.home-body{
+   display: flex;
+   justify-content: flex-start;
+   padding: 60px 0 0 60px;
+}
+
+.card{
+    width: 305px;
+    height: 260px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.card-header{
+    padding: 80px 20px 40px 20px;
+    max-height: 70px;
+    gap: 22px;
+    border-bottom: 1px solid #b0b0b084;
+}
+
+.input-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    cursor: pointer;
+}
+
+.fileName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    margin-top: 17px;
+    color: gray;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.add-label span{
+    font-size: 18px;
+}
+
+.add-file{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-body{
+    padding: 12px 20px;
+}
+
+.mat-mdc-form-field{
+    width: 100% !important;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px 0px;
+}
+
+.send{
+    background-color: #3f51b5;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
