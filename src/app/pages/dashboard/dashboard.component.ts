@@ -95,8 +95,8 @@ export class DashboardComponent implements OnInit {
       this.teamsArray = this.sociosService.getColumnsValues(this.socios, 'equipo');
       
       this.totalSocios = this.socios.length;
-      
-      this.changeSelectedTeamPE('Racing');
+      console.log("==> <==")
+      this.changeSelectedTeamPE('Racing');  
       this.changeSelectedTeamNC('River');
 
       this.filteredSociosTablas(this.socios);
@@ -120,8 +120,9 @@ export class DashboardComponent implements OnInit {
     const sociosNC = this.sociosService.getSociosFilter(this.socios, [
       { column: 'equipo', operator: 'like', value: this.equipoSeleccionadoNC }
     ]);
-
+    console.log("NC: ", sociosNC);
     this.nombreComunList = this.sociosService.getColumnCount(sociosNC, 'nombre', 'desc').slice(0, 5);
+    console.table(this.nombreComunList);
   }
 
   filteredSociosTablas(socios: Socio[]){
